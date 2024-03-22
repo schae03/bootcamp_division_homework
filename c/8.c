@@ -6,7 +6,15 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int n, i;
+    int sum=0, mul=1;
+    scanf("%d", &n);
+
+    for(i=1; i<=n; i++){
+        sum=sum+i;
+        mul=mul*i;
+    }
+    printf("%d\n%d\n", sum, mul);
 
     return 0;
 }

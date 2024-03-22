@@ -6,7 +6,16 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int a;
+    int b=0;
+    scanf("%d", &a);
+
+    for(int i=0; i<3; i++) {
+        b=b*10;
+        b=b+a%10;
+        a=a/10;
+    }
+    printf("%d", b);
 
     return 0;
 }
