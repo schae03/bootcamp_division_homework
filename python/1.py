@@ -4,7 +4,12 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    number = input()
+    
+    reversed_number = number[::-1]
+    
+    print(reversed_number)
+    print()
 
     return
 

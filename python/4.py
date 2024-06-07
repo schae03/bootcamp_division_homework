@@ -4,7 +4,18 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    num = int(input())
+
+    if num>=90 and num<=100:
+        print("A\n")
+    elif num>=80 and num<90:
+        print("B\n")
+    elif num>=70 and num<80:
+        print("C\n")
+    elif num>=60 and num<70:
+        print("D\n")
+    else:
+        print("F\n")
 
     return
 

@@ -4,7 +4,16 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    n = int(input())
+    sum=0
+    mul=1
+
+    for i in range(n):
+        sum=sum+(i+1)
+        mul=mul*(i+1)
+    print(sum)
+    print(mul)
+    print()
 
     return
 

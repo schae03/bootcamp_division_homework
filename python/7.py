@@ -4,7 +4,18 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    year = int(input())
+    month = int(input())
+
+    if month==4 or month==6 or month==9 or month==11:
+        print("30\n")
+    elif month==2:
+        if (year%4==0 and year%100!=0) or year%400==0:
+            print("29\n")
+        else:
+            print("28\n")
+    else:
+        print("31\n")
 
     return
 

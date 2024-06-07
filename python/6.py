@@ -4,7 +4,12 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    word = input()
+
+    if word=='a' or word=='e' or word=='i' or word=='o' or word=='u':
+        print("O\n")
+    else:
+        print("X\n")
 
     return
 

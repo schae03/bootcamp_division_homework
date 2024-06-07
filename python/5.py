@@ -4,7 +4,13 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    age = int(input())
+    height = int(input())
+
+    if age>=14 or height>=160:
+        print("X\n")
+    else:
+        print("O\n")
 
     return
 
